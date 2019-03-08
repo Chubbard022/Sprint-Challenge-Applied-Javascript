@@ -31,18 +31,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the DOM?
-    the DOM stands for the document object model and it’s something that is not entirely connected to javascript. It is like an extra built in filter for the browser to manipulate data. The DOM can be manipulated with Javascript (and other languages) and you can manipulate your html, css and web functionality. 
+    the DOM stands for the document object model and it’s something that is not entirely connected to javascript. It is like an extra built in filter for the browser to manipulate data. The DOM can be manipulated with Javascript (and other languages) and you can manipulate your html, css and web functionality. When putting something on the browser. it takes in the html and css, parses through it and displays those content. Browsers have a built in styling and behavior. To manipulate this behavior and add more functionality, programmers can tell the DOM what to do with the html and css
 
 2. What is an event?
-    an event pertains with javascript creating functionality to your html and css. Events can be mouse events, key events, and many more. This allows for manipulation of html elements.            
+    an event pertains with javascript creating functionality to your html and css. Events can be mouse events, key events, and many more. This allows for manipulation of html elements when someone is using the website and it provides better visual feedback to what the user is doing. 
+
 3. What is an event listener?
-    an event listener allows you to create events off of nodeLists or HTML-tokens. Meaning getElement or querySelectors will allow for specific events to be tied to an html element or collection of particular elements
+    an event listener start with nodeLists or HTML-tokens. Meaning getElement or querySelectors will allow for specific events to be tied to an html element or collection of particular elements. within an event listener, you have to specify in the first parameter a string that represents the type of event that is being 'listened for'. The second parameter is a callback function which tells the event listener what to do when that specific event has been triggered.
 
 4. Why would we convert a NodeList into an Array?
-    this is because NodeLists have only one “under-photo” which is forEach. Using the Array.from on the NodeList creates a shallow copy of the nodeList and allows it to be manipulated with array built in methods.
+    this is because NodeLists have only one “dunder-prodo” which is forEach. Using the Array.from on the NodeList creates a shallow copy of the nodeList and allows it to be manipulated with array built in methods. Without creating the shallow copy of the nodeList it can be hard to select and manipulate particular data.
 
 5. What is a component?
-    components are sections of code that are reduced using javascript. We are able to take advantage of the DOM and use selectors to create classes that function as component creators that help shorten code and provide a better understanding of the “what” in what the code does. When components are created, 
+    components are sections of code that are reduced using javascript and the DOM. We are able to take advantage of the DOM and use selectors to create classes that function as component creators that help shorten code and provide a better understanding of the “what” in what the code does. When components are created with classes, they act as the outline of what the elements will be doing and look like. This allows for shorter code sense you are specifying less code to grab.
 
 ### Git Set up
 
