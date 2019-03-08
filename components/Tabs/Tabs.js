@@ -32,7 +32,7 @@ class TabLink {
 
     // Select all of the elements with the .card class on them
      const cards = document.querySelectorAll('.card');
-      console.log(cards)
+     
     // Iterate through the NodeList setting the display style each one to 'none'
      cards.forEach((card)=> card.style.display = 'none')
     
